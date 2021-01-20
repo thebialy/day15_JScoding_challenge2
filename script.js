@@ -22,3 +22,31 @@ const largestOfFour = (arr) => {
 }
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18,26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
+
+
+// Challenge 2
+// Confirm the Ending
+
+const confirmEnding = (str, target) => {
+    if(str.endsWith(target)) {
+        console.log(true) ;
+    } else {
+        console.log(false)
+    }
+}
+
+confirmEnding("Bastian", "n")
+confirmEnding("Connor", "n")
+
+// Challenge 3
+// Repeat a string repeat a string
+
+const repeatStringNumTimes = (str, num) => {
+    if (num < 0){
+        return ""
+    } else {
+        return str.repeat(num)
+    } 
+}
+
+console.log(repeatStringNumTimes("abc", 10))
