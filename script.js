@@ -39,7 +39,7 @@ confirmEnding("Bastian", "n")
 confirmEnding("Connor", "n")
 
 // Challenge 3
-// Repeat a string repeat a string
+// Repeat a String Repeat a string
 
 const repeatStringNumTimes = (str, num) => {
     if (num < 0){
@@ -50,3 +50,20 @@ const repeatStringNumTimes = (str, num) => {
 }
 
 console.log(repeatStringNumTimes("abc", 10))
+
+// Challenge 4
+// Truncate a String
+
+const truncateString = (string, num) => {
+    if (num >= string.length) {
+        return string
+    }else if(num <= 3) {
+            return string.slice(0, num) + "..."
+        } else {
+            return string.slice(0, num-3) + "..."
+        }
+
+}
+
+console.log(truncateString("A-tisket a-tasket A green and yellow basket", 11))
+console.log(truncateString("tommy goes to work.", 4))
