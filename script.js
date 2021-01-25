@@ -65,5 +65,5 @@ const truncateString = (string, num) => {
 
 }
 
-console.log(truncateString("A-tisket a-tasket A green and yellow basket", 11))
-console.log(truncateString("tommy goes to work.", 4))
+truncateString("A-tisket a-tasket A green and yellow basket", 11)
+truncateString("tommy goes to work.", 4)
