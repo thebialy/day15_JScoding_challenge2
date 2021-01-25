@@ -18,7 +18,7 @@ const largestOfFour = (arr) => {
         }
         max.push(currentMax)
     }
-    console.log(max)
+    return max
 }
 
 largestOfFour([[4, 5, 1, 3], [13, 27, 18,26], [32, 35, 37, 39], [1000, 1001, 857, 1]])
@@ -29,9 +29,9 @@ largestOfFour([[4, 5, 1, 3], [13, 27, 18,26], [32, 35, 37, 39], [1000, 1001, 857
 
 const confirmEnding = (str, target) => {
     if(str.endsWith(target)) {
-        console.log(true) ;
+        return true
     } else {
-        console.log(false)
+        return false
     }
 }
 
@@ -49,7 +49,7 @@ const repeatStringNumTimes = (str, num) => {
     } 
 }
 
-console.log(repeatStringNumTimes("abc", 10))
+repeatStringNumTimes("abc", 10)
 
 // Challenge 4
 // Truncate a String
