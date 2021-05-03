@@ -38,7 +38,7 @@ const confirmEnding = (str, target) => {
 confirmEnding("Bastian", "n")
 confirmEnding("Connor", "n")
 
-// Challenge 3
+// Challenge 3 //
 // Repeat a String Repeat a string
 
 const repeatStringNumTimes = (str, num) => {
