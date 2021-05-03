@@ -2,7 +2,7 @@
 // freeCodeCamp JS Challenges //
 ///////////////////////////////
 
-// Challenge 1
+// Challenge 1 //
 // Return Largest Numbers in Arrays
 
 const largestOfFour = (arr) => {
