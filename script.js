@@ -51,7 +51,7 @@ const repeatStringNumTimes = (str, num) => {
 
 repeatStringNumTimes("abc", 10)
 
-// Challenge 4
+// Challenge 4 //
 // Truncate a String
 
 const truncateString = (string, num) => {
